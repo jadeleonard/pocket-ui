@@ -35,7 +35,7 @@ const Button = (props: ButtonProps) :HTMLButtonElement=> {
   if (props.disabled) button.disabled = props.disabled;
   if (props.type) button.type = props.type;
   if (props.value) button.value = props.value;
-
+  
 
   return button
 };

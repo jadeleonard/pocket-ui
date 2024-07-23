@@ -1,4 +1,10 @@
-node_modules
-dist
+.env
 build
-env
+node_modules
+# .npmignore
+src/
+node_modules/
+webpack.config.js
+tsconfig.json
+.npmignore
+.gitignore

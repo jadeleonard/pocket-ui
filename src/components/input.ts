@@ -71,11 +71,11 @@ interface InputProps {
     if (props.step !==undefined ) input.step = String(props.step)
     if (props.accept) input.accept = props.accept;
     if (props.form) input.setAttribute('form', props.form); // Set form attribute
-  if (props.formaction) input.setAttribute('formaction', props.formaction);
-  if (props.formenctype) input.setAttribute('formenctype', props.formenctype);
-  if (props.formmethod) input.setAttribute('formmethod', props.formmethod);
-  if (props.formnovalidate) input.setAttribute('formnovalidate', props.formnovalidate.toString());
-  if (props.formtarget) input.setAttribute('formtarget', props.formtarget);
+    if (props.formaction) input.setAttribute('formaction', props.formaction);
+    if (props.formenctype) input.setAttribute('formenctype', props.formenctype);
+    if (props.formmethod) input.setAttribute('formmethod', props.formmethod);
+    if (props.formnovalidate) input.setAttribute('formnovalidate', props.formnovalidate.toString());
+    if (props.formtarget) input.setAttribute('formtarget', props.formtarget);
     if (props.autofocus) input.autofocus = props.autofocus;
     if (props.multiple) input.multiple = props.multiple;
     if (props.capture) input.capture = props.capture;
